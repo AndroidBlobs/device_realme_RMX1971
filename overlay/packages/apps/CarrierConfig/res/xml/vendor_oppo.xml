@@ -213,6 +213,7 @@
     </carrier_config>
     <carrier_config operator="SMART">
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_noallow_ussd_in_volte_call" value="true" />
         <string-array name="mccmnc" num="2">
             <item value="45605" />
             <item value="45606" />
@@ -220,6 +221,8 @@
     </carrier_config>
     <carrier_config operator="SEATEL">
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="config_oppo_hide_3g_2g" value="true" />
+        <boolean name="carrier_noallow_ussd_in_volte_call" value="true" />
         <string-array name="mccmnc" num="1">
             <item value="45611" />
         </string-array>
