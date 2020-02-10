@@ -552,6 +552,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
         <string-array name="mccmnc" num="2">
             <item value="45400" />
             <item value="45419" />
@@ -561,6 +562,14 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string-array name="mccmnc" num="1">
             <item value="45406" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CT" iccid="8986">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="20404" />
         </string-array>
     </carrier_config>
 </carrier_config_list>
